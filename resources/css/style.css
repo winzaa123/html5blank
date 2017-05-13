@@ -1,0 +1,186 @@
+body {
+    /*background: url(../img/background/texture_bg.png) repeat scroll 0 0 #444444;*/
+    /*font-family: 'Open Sans','Lucida Sans Unicode','Lucida Grande',sans-serif;*/
+    background: url(../img/background/square_bg.png) repeat scroll 0 0 #f1f1f1;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-brown {
+    background: url(../img/background/texture_bg.png) repeat scroll 0 0 #444444;
+}
+
+.header-social {
+    color: #FFF;
+    list-style: none;
+    margin: 15px 0;
+    flex-direction: row;
+}
+
+.header-social li:first-child {
+    margin-left: 0px;
+    border: none;
+    padding-left: 0;
+}
+
+.header-social li {
+    border-left: 1px dotted;
+    float: left;
+}
+
+.header-social li a {
+    padding: 0 1rem;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1300px;
+    }
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo-img-header {
+    height: 70px;
+    width: 100%;
+}
+
+.navbar-toggleable-md {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-item.active .nav-link {
+    background-color: #ff6633;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-item.active .nav-link {
+    color: #FFF;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-item>.nav-link {
+    padding: .75rem;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-item.dropdown .dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 1rem;
+}
+.navbar-toggleable-md .navbar-nav .nav-item.dropdown.current-menu-parent{
+        /*background-color: #ff6633;*/
+        
+}
+.navbar-toggleable-md .navbar-nav .nav-item.dropdown.current-menu-parent .nav-link{
+    /*color: #FFF;*/
+}
+@media (min-width: 992px) {
+    .navbar-toggleable-md .navbar-nav .nav-item>.nav-link {
+        color: #666;
+        display: block;
+        font-weight: 400;
+        height: auto;
+        line-height: 45px;
+        padding: 20px;
+    }
+    .navbar-toggleable-md .navbar-nav .nav-item.dropdown .dropdown-menu .nav-link {
+        padding: .25rem;
+        padding-left: 1rem;
+    }
+    .navbar-toggleable-md .navbar-nav .nav-item.dropdown .dropdown-menu{
+        padding: .5rem 0;
+    }
+}
+
+.form-control:focus {
+    border-color: #ff6633;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff6633;
+    border-color: #ff6600;
+}
+
+.btn-primary:hover {
+    background-color: #ff865e;
+    border-color: #ff5500;
+}
+
+/*additional module*/
+#menu-sidebar_menu{
+        display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#menu-sidebar_menu{
+        position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    list-style: none;
+    padding: 0 ;
+}
+#menu-sidebar_menu > .menu-item{
+    display: block;
+    width: 100%;
+    padding-bottom: .75rem;
+}
+#menu-sidebar_menu > .menu-item  > a:first-child{
+        border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+}
+#menu-sidebar_menu > .menu-item > a{
+        z-index: 2;
+    color: #fff;
+     display: block;
+    width: 100%;
+    background-color: #ff6633;
+    border-color: #ff6600;
+        padding: .75rem 1.25rem; 
+}
+ 
+#menu-sidebar_menu > .menu-item .sub-menu{
+    list-style: none;
+    padding-left: 1.25rem;
+}
+#menu-sidebar_menu > .menu-item .sub-menu a{
+     display: block;
+    width: 100%;
+     padding: .5rem 1.25rem; 
+         color: #666;
+}
+.n2-padding{
+    padding-bottom: 70px !important;
+}
+/**/
