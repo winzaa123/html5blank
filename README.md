@@ -2,7 +2,7 @@
 
 
 ## Features
-
+  #[CLASS wp-bootstrap-navwalker] (https://github.com/wp-bootstrap/wp-bootstrap-navwalker)
 ### HTML5
 * Basic Semantic HTML5 Markup
 * W3C Valid Code Foundations
